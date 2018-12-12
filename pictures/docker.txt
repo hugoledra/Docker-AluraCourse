@@ -1,0 +1,6 @@
+Alguns programas com docker.
+
+
+Wordpress:
+docker run --name wordpress -p 8080:80 -e WORDPRESS_DB_HOST=172.16.0.100:30031 -e WORDPRESS_DB_USER=pingpong -e WORDPRESS_DB_PASSWORD=myh0m0l0gsql -v /tmp/wordpress/html/:/var/www/html -d wordpress
+
