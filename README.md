@@ -7,6 +7,8 @@
 #### Requirements to run this project
 
 #### Run this project
-
+```
+$docker-compose up
+```
 ###### This project is based on the Alura course > [Docker Course: Creating Non-Headache Containers](https://cursos.alura.com.br/course/docker-e-docker-compose)
 ###### The whole coding part of this project was made by Douglas Quintanilha Barbosa Ferreira
